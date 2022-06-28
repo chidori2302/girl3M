@@ -1,0 +1,136 @@
+body {
+    background-color: rgb(255, 236, 252);
+padding: 0rem;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.logo{
+    display: inline-block;
+    margin: 0px;
+    text-align: center;
+    /* transform: translate(-50%); */
+    width: 100%; height: 30rem;
+    object-fit: cover;
+    object-position: bottom;
+}
+/* h1{
+    margin-left: 50%;
+    margin-right: 50%;
+    transform: translate(-50%);
+    border-bottom: rgb(0, 110, 255) 0.2rem solid;
+    width: 20rem;
+    font-size: 1.3rem;
+    color: rgb(0, 110, 255);
+} */
+.menu{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 600;
+    margin-top: 0rem;
+}
+.click{
+    display: inline-block;
+    color: rgb(161, 0, 161);
+    /* margin: 1rem; */
+    padding: 1rem;
+    border-radius: 11rem;
+    box-shadow: rgba(0, 0, 0, 0.116) 0px 7px 29px 0px;
+
+}
+.click:hover{
+    box-shadow: rgba(0, 0, 0, 0.39) 0px 7px 29px 0px;
+}
+
+a{
+    text-decoration: none;
+    margin: 3rem;
+}
+.card{
+    margin-top: 0rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.girl{
+    display: inline-block;
+    width: calc(25% - 6rem); height: 30rem;
+    background-color: rgb(255, 255, 255);
+    border-radius: 2rem;
+    text-decoration: none;
+    /* margin-left: 1rem; */
+    position: relative;
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.267) 0px 7px 29px 0px;
+}
+
+.girl:hover {
+    box-shadow:rgba(0, 0, 0, 0.726) 0px 7px 29px 0px ;
+}
+.girl-cover{
+    position: relative;
+    width: 100%; height: 50%;
+    object-fit: cover;
+}
+.girl-info{
+    padding: 1rem;
+    border-bottom: 0.1rem solid rgba(0, 0, 0, 0.644); 
+}
+h3{
+    color: black;
+    font-size: 1.5rem;
+    margin-bottom: 0.2rem; margin-top: 4px;
+}
+.birthday{
+    color: rgba(0, 0, 0, 0.418);
+    margin-top: 0rem;
+    font-weight: 500;
+}
+.girl-review{
+    color: rgba(0, 0, 0, 0.418);
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+}
+.girl-facebook{
+    position: relative;
+    padding: 1rem;
+}
+.avatar{
+    width: 2rem;height: 2rem;
+    border-radius: 50%;
+    object-fit: cover;
+   
+}
+.girl-facebook-name{
+    position: absolute;
+    padding-left: 1rem;
+    margin: 0px;
+    display: inline-block;
+}
+.girl-namefb{
+    
+    
+    display: inline;
+    margin: 0px;
+}
+.girl-facebook ion-icon {
+    color: rgb(0, 129, 0);
+    font-size: 1rem;
+    
+    margin-left: ;
+}
+.note{
+    display: inline-block;
+    margin: 1rem 0px 0px 0px;
+    font-size: 0.7rem;
+    font-weight: 500;
+    padding-left: 1rem;
+    font-style: italic;
+}
+footer{
+    margin: 2rem 0px;
+    text-align: center;
+}
+h2:hover {
+    color: brown;
+}
